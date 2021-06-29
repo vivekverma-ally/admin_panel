@@ -69,16 +69,7 @@ fetch(url)
                 document.getElementById("info-content").innerHTML = render;
             })
         });
-        document.getElementById("search-box").addEventListener("click", () => {
-            let searched = document.getElementById("search-box").value.trim();
-            console.log(searched)
-            // if (searched !== "") {
-            //     let text = document.getElementById("table-data").innerHTML;
-            //     let re = new RegExp(searched, "g"); // search for all instances
-            //     let newText = text.replace(re, `<mark>${searched}</mark>`);
-            //     document.getElementById("table-data").innerHTML = newText;
-            // }
-        })
+ 
 
     });
 
